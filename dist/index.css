@@ -149,6 +149,11 @@ body {
   justify-content: space-between;
 }
 
+@media (max-width: 720px) {
+  .skyj__body {
+    flex-direction: column;
+  }
+}
 /* ----------------------- */
 .skyj__text {
   flex: 0 1 544px;

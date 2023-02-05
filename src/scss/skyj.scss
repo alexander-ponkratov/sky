@@ -7,6 +7,11 @@
     flex-direction: row;
     justify-content: space-between;
 }
+@media (max-width: 720px) {
+    .skyj__body {
+        flex-direction: column;
+    }
+}
 /* ----------------------- */
 .skyj__text {
     flex: 0 1 544px;
@@ -17,7 +22,6 @@
 .skyj__titleW {
 }
 .skyj__title {
-    
 }
 .bold {
     font-family: "Impact";
@@ -34,13 +38,11 @@
 }
 .skyj__subtitle {
     margin: 35px 0px 0px 0px;
-
 }
 .skyj__contentW {
 }
 .skyj__content {
     margin: 35px 0px 0px 0px;
-
 }
 .skyj__btns {
     display: flex;
