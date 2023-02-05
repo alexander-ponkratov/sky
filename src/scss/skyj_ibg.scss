@@ -2,7 +2,9 @@
 /* ----------------------------- */
 
 .skyj__imageW {
-
+    position: relative;
+    flex:0 1 650px;
+    display: flex;
 }
 
 /* @media (max-width:992px){
@@ -11,7 +13,10 @@
     }
 } */
 .skyj__image {
-    max-width: 100%;
+    position: absolute;
+    top: 37px;
+    left: 0px;
+    max-width: 130%;
     height: auto;
 }
 

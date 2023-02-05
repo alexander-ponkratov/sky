@@ -54,10 +54,12 @@ h6 {
 html,
 body {
   height: 100%;
-  line-height: 1;
-  font-style: 16px;
-  color: #000;
   font-family: "Franklin Gothic Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
 }
 
 /* -----------------reset css------------------- */
@@ -143,18 +145,80 @@ body {
 /* ------------------------------- */
 .skyj__body {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* ----------------------- */
+.skyj__text {
+  flex: 0 1 544px;
+  display: flex;
+  flex-direction: column;
+  margin: 171px 25px 0px 0px;
+}
+
+.bold {
+  font-family: "Impact";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+}
+
+.semibold {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.skyj__subtitle {
+  margin: 35px 0px 0px 0px;
+}
+
+.skyj__content {
+  margin: 35px 0px 0px 0px;
+}
+
+.skyj__btns {
+  display: flex;
+  margin: 96px -12px 0;
 }
 
 /* ----------------------- */
 /* ----------------------------- */
+.skyj__imageW {
+  position: relative;
+  flex: 0 1 650px;
+  display: flex;
+}
+
 /* @media (max-width:992px){
     .skyj__imageW {
         opacity: 0.5;
     }
 } */
 .skyj__image {
-  max-width: 100%;
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  max-width: 130%;
   height: auto;
 }
 
 /* -------------------------------- */
+.btnPinkW {
+  padding: 0 12px;
+}
+
+.btnPink {
+  background-color: #E21BCE;
+  color: white;
+}
+
+.btnWhiteW {
+  display: flex;
+  padding: 0 12px;
+}
+
+.btnWhite {
+  border: 1px solid #E21BCE;
+  color: black;
+}

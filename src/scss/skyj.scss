@@ -1,9 +1,49 @@
-
 .skyj {
 }
 .skyj__container {
 }
 .skyj__body {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* ----------------------- */
+.skyj__text {
+    flex: 0 1 544px;
+    display: flex;
+    flex-direction: column;
+    margin: 171px 25px 0px 0px;
+}
+.skyj__titleW {
+}
+.skyj__title {
+    
+}
+.bold {
+    font-family: "Impact";
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+.semibold {
+    font-size: 32px;
+    line-height: 36px;
+}
+.skyj__subtitleW {
+}
+.skyj__subtitle {
+    margin: 35px 0px 0px 0px;
+
+}
+.skyj__contentW {
+}
+.skyj__content {
+    margin: 35px 0px 0px 0px;
+
+}
+.skyj__btns {
+    display: flex;
+    margin: 96px -12px 0;
 }
 /* ----------------------- */
