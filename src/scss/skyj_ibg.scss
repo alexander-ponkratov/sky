@@ -1,0 +1,33 @@
+._ibg {
+    position: relative;
+}
+._ibg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+/* ----------------------------- */
+
+.skyj__imageW {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.skyj__imageW img {
+    /* object-position: right; */
+}
+
+/* @media (max-width:992px){
+    .skyj__imageW {
+        opacity: 0.5;
+    }
+} */
+.skyj__image {
+}
+
+/* -------------------------------- */

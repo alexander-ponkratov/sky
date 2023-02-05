@@ -47,7 +47,8 @@ function serve() {
 	watch('src/**.html', series(html)).on('change', sync.reload)
 	watch('src/parts/**.html', series(html)).on('change', sync.reload)
 	watch('src/scss/**.scss', series(scss)).on('change', sync.reload)
+	watch('src/parts/img/**.scss', series(img)).on('change', sync.reload)
 }
-exports.build = series(clear, scss, html)
+exports.build = series(clear, scss, html, fonts, img)
 exports.serve = series(clear, scss, html, fonts, img, serve)
 exports.clear = clear
