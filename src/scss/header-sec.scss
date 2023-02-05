@@ -1,0 +1,18 @@
+.header {
+    background-color: #FB9BF1;
+}
+.header__container {
+}
+.header__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logoW {
+    flex: 0 1 220px;
+}
+.header__logo {
+    padding: 22px 0;
+}
+/* ------------------------------------- */

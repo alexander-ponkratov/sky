@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Franklin Gothic Book";
+  src: url("fonts/FranklinGothic-Book.woff2") format("woff2"), url("fonts/FranklinGothic-Book.woff") format("woff");
+  font-weight: normal;
+  /* font-style: normal; */
+  font-display: swap;
+}
+@font-face {
+  font-family: "Impact";
+  src: url("fonts/Impact.woff2") format("woff2"), url("fonts/Impact.woff") format("woff");
+  font-weight: normal;
+  /* font-style: normal; */
+  font-display: swap;
+}
+/* ----------------reset css--------------------- */
+/* * {
+    outline: 1px solid tomato;
+} */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+  /*     max-width: 100%;
+  height: auto; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-style: 16px;
+  color: #000;
+  font-family: "Franklin Gothic Book";
+}
+
+/* -----------------reset css------------------- */
+/* --------------------------------------------- */
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+._container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+/* --------------------------------------------- */
+.header {
+  background-color: #FB9BF1;
+}
+
+.header__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logoW {
+  flex: 0 1 220px;
+}
+
+.header__logo {
+  padding: 22px 0;
+}
+
+/* ------------------------------------- */
+.header__menuW {
+  flex: 0 1 880px;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px -10px;
+}
+
+.header__menuItem {
+  padding: 0px 20px;
+}
+
+.header__menuLink {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.header__menuLink:hover {
+  text-decoration: underline;
+}
+
+/* ---------------------------- */
+.header_buttonW {
+  display: flex;
+  flex: 0 1 210px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_button {
+  width: 100%;
+  display: inline;
+  background-color: white;
+  border-radius: 45px;
+  color: #E21BCE;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+/* ------------------------------- */
+/* ----------------------- */

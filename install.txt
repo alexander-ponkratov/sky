@@ -1,0 +1,10 @@
+npm init
+sudo npm i gulp-cli -g
+npm i gulp -D
+npm i -D gulp gulp-file-include gulp-sass gulp-csso browser-sync del gulp-htmlmin
+sudo npm install -g gulp
+npm install
+npm i -D gulp-autoprefixer gulp-concat
+npm install --save-dev sass
+gulp build
+gulp serve

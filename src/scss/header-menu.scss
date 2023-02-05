@@ -1,0 +1,21 @@
+.header__menuW {
+    flex: 0 1 880px;
+}
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px -10px;
+}
+.header__menuItem {
+    padding: 0px 20px;
+}
+.header__menuLink {
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+.header__menuLink:hover {
+    text-decoration: underline;
+}
+/* ---------------------------- */
