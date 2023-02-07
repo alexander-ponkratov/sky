@@ -1,16 +1,21 @@
 .header__menuW {
-    flex: 1;
-    max-width: 880px;
+    flex: 0 1 880px;
 }
 .header__menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 10px -10px;
+    margin: 10px 10px;
 }
-.header__menuItem {
-    padding: 0px 20px;
+.header__menuItem:not(:last-child) {
+    margin-right: 40px;
 }
+@media (max-width:850px){
+    .header__menuItem:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
 .header__menuLink {
     font-size: 18px;
     line-height: 20px;

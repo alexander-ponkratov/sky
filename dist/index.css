@@ -86,7 +86,7 @@ body {
 .header__body {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  min-height: 145px;
 }
 
 .header__logoW {
@@ -106,13 +106,18 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 10px -10px;
+  margin: 10px 10px;
 }
 
-.header__menuItem {
-  padding: 0px 20px;
+.header__menuItem:not(:last-child) {
+  margin-right: 40px;
 }
 
+@media (max-width: 850px) {
+  .header__menuItem:not(:last-child) {
+    margin-right: 20px;
+  }
+}
 .header__menuLink {
   font-size: 18px;
   line-height: 20px;
@@ -127,19 +132,39 @@ body {
 .header_buttonW {
   display: flex;
   flex: 0 1 210px;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 
 .header_button {
   width: 100%;
-  display: inline;
+  display: inline-block;
   background-color: white;
   border-radius: 45px;
-  color: #E21BCE;
-  padding: 20px 0px;
+  color: #e21bce;
+  padding: 20px 20px;
   text-align: center;
+}
+
+.header_button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.header_button:active {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.hBtn {
+  display: flex;
+  justify-content: center;
+  margin: 0 -6px;
+}
+
+.hSpan {
+  padding: 0 6px;
+}
+
+.header_button_icon {
+  padding: 0 6px;
 }
 
 /* ------------------------------- */
@@ -156,12 +181,18 @@ body {
 }
 /* ----------------------- */
 .skyj__text {
-  flex: 0 1 544px;
+  flex: 1;
+  max-width: 544px;
   display: flex;
   flex-direction: column;
   margin: 171px 25px 0px 0px;
 }
 
+@media (max-width: 767px) {
+  .skyj__text {
+    margin: 80px 25px 0px 0px;
+  }
+}
 .bold {
   font-family: "Impact";
   font-weight: 400;
@@ -191,7 +222,8 @@ body {
 /* ----------------------------- */
 .skyj__imageW {
   position: relative;
-  flex: 0 1 740px;
+  flex: 1;
+  max-width: 740px;
   display: flex;
 }
 
@@ -218,6 +250,15 @@ body {
   color: white;
 }
 
+.btnPink:hover {
+  background: #FB9BF1;
+  box-shadow: none;
+}
+
+.btnPink:active {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
 .btnWhiteW {
   display: flex;
   padding: 0 12px;
@@ -226,4 +267,12 @@ body {
 .btnWhite {
   border: 1px solid #E21BCE;
   color: black;
+}
+
+.btnWhite:hover {
+  background: #FB9BF1;
+}
+
+.btnWhite:active {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.4);
 }

@@ -1,7 +1,6 @@
 .header_buttonW {
     display: flex;
-    flex: 1;
-    max-width: 210px;
+    flex: 0 1 210px;
     justify-content: center;
 }
 .header_button {
@@ -9,8 +8,25 @@
     display: inline-block;
     background-color: white;
     border-radius: 45px;
-    color: #E21BCE;
-    padding: 20px 0px;
+    color: #e21bce;
+    padding: 20px 20px;
     text-align: center;
+}
+.header_button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.header_button:active {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.hBtn {
+    display: flex;
+    justify-content: center;
+    margin: 0 -6px;
+}
+.hSpan {
+    padding: 0 6px;
+}
+.header_button_icon {
+    padding: 0 6px;
 }
 /* ------------------------------- */

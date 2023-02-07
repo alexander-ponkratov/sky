@@ -6,11 +6,11 @@
 .header__body {
     display: flex;
     align-items: center;
+    min-height: 145px;
 }
 
 .header__logoW {
-    flex: 1;
-    max-width: 220px;
+    flex: 0 1 220px;
 }
 .header__logo {
     padding: 22px 0;

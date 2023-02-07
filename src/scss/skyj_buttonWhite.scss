@@ -7,3 +7,9 @@
     border: 1px solid #E21BCE;
     color: black;
 }
+.btnWhite:hover {
+    background: #FB9BF1;
+}
+.btnWhite:active {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
