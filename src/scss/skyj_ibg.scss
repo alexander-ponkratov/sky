@@ -3,7 +3,8 @@
 
 .skyj__imageW {
     position: relative;
-    flex:0 1 740px;
+    flex:1;
+    max-width: 740px;
     display: flex;
 }
 

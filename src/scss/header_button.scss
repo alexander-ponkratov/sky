@@ -1,13 +1,12 @@
 .header_buttonW {
     display: flex;
-    flex: 0 1 210px;
-    flex-direction: row;
+    flex: 1;
+    max-width: 210px;
     justify-content: center;
-    align-items: center;
 }
 .header_button {
     width: 100%;
-    display: inline;
+    display: inline-block;
     background-color: white;
     border-radius: 45px;
     color: #E21BCE;

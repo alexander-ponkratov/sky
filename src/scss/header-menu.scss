@@ -1,5 +1,6 @@
 .header__menuW {
-    flex: 0 1 880px;
+    flex: 1;
+    max-width: 880px;
 }
 .header__menu {
     display: flex;

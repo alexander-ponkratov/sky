@@ -6,11 +6,11 @@
 .header__body {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .header__logoW {
-    flex: 0 1 220px;
+    flex: 1;
+    max-width: 220px;
 }
 .header__logo {
     padding: 22px 0;
