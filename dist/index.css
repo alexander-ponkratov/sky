@@ -90,7 +90,8 @@ body {
 }
 
 .header__logoW {
-  flex: 0 1 220px;
+  flex: 1 1 0px;
+  max-width: 220px;
 }
 
 .header__logo {
@@ -99,7 +100,8 @@ body {
 
 /* ------------------------------------- */
 .header__menuW {
-  flex: 0 1 880px;
+  flex: 1 1 350px;
+  max-width: 880px;
 }
 
 .header__menu {
@@ -131,7 +133,8 @@ body {
 /* ---------------------------- */
 .header_buttonW {
   display: flex;
-  flex: 0 1 210px;
+  flex: 1 1 50px;
+  max-width: 210px;
   justify-content: center;
 }
 
@@ -168,10 +171,13 @@ body {
 }
 
 /* ------------------------------- */
+.skyj__container.skyj__imageW {
+  max-width: 1500px;
+}
+
 .skyj__body {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 @media (max-width: 720px) {
@@ -181,7 +187,7 @@ body {
 }
 /* ----------------------- */
 .skyj__text {
-  flex: 1;
+  flex: 1 1 0px;
   max-width: 544px;
   display: flex;
   flex-direction: column;
@@ -222,9 +228,10 @@ body {
 /* ----------------------------- */
 .skyj__imageW {
   position: relative;
-  flex: 1;
+  flex: 1 1 0px;
   max-width: 740px;
   display: flex;
+  height: 100%;
 }
 
 /* @media (max-width:992px){
@@ -233,11 +240,10 @@ body {
     }
 } */
 .skyj__image {
-  position: absolute;
-  top: 37px;
-  left: 0px;
-  max-width: 130%;
+  margin-top: 50px;
+  width: 100%;
   height: auto;
+  margin-left: auto;
 }
 
 /* -------------------------------- */

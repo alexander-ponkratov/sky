@@ -1,11 +1,11 @@
 .skyj {
 }
-.skyj__container {
+.skyj__container.skyj__imageW {
+    max-width: 1500px;
 }
 .skyj__body {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 @media (max-width: 720px) {
     .skyj__body {
@@ -14,7 +14,7 @@
 }
 /* ----------------------- */
 .skyj__text {
-    flex: 1;
+    flex: 1 1 0px;
     max-width: 544px;
     display: flex;
     flex-direction: column;
