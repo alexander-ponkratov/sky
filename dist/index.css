@@ -188,7 +188,7 @@ body {
 /* ----------------------- */
 .skyj__text {
   flex: 1 1 0px;
-  max-width: 544px;
+  max-width: 626px;
   display: flex;
   flex-direction: column;
   margin: 171px 25px 0px 0px;
@@ -240,6 +240,7 @@ body {
     }
 } */
 .skyj__image {
+  position: relative;
   margin-top: 50px;
   width: 100%;
   height: auto;
