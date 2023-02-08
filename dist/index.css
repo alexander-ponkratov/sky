@@ -171,13 +171,14 @@ body {
 }
 
 /* ------------------------------- */
-.skyj__container.skyj__imageW {
-  max-width: 1500px;
-}
-
 .skyj__body {
   display: flex;
   flex-direction: row;
+}
+
+.skyj__body .skyj__text {
+  /*     max-width: 1500px;
+   */
 }
 
 @media (max-width: 990px) {
