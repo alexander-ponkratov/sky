@@ -1,14 +1,15 @@
 .skyj {
 }
 .skyj__container {
+    max-width: 1521px;
 }
 .skyj__body {
     display: flex;
     flex-direction: row;
+    justify-content: end;
+
 }
-.skyj__body .skyj__text {
-/*     max-width: 1500px;
- */}
+
 @media (max-width: 990px) {
     .skyj__body {
         flex-direction: column;

@@ -171,14 +171,14 @@ body {
 }
 
 /* ------------------------------- */
+.skyj__container {
+  max-width: 1521px;
+}
+
 .skyj__body {
   display: flex;
   flex-direction: row;
-}
-
-.skyj__body .skyj__text {
-  /*     max-width: 1500px;
-   */
+  justify-content: end;
 }
 
 @media (max-width: 990px) {
@@ -241,60 +241,10 @@ body {
     }
 } */
 .skyj__image {
-  position: relative;
-  top: -130px;
-  left: -340px;
-  width: 200%;
+  width: 100%;
   height: auto;
-  margin-left: auto;
-  z-index: -1;
 }
 
-@media (max-width: 1280px) {
-  .skyj__image {
-    top: -90px;
-    left: -330px;
-  }
-}
-@media (max-width: 1212px) {
-  .skyj__image {
-    top: -80px;
-    left: -310px;
-  }
-}
-@media (max-width: 1165px) {
-  .skyj__image {
-    left: -260px;
-  }
-}
-@media (max-width: 1092px) {
-  .skyj__image {
-    left: -230px;
-  }
-}
-@media (max-width: 999px) {
-  .skyj__image {
-    left: -200px;
-  }
-}
-@media (max-width: 990px) {
-  .skyj__image {
-    left: -200px;
-    width: 180%;
-  }
-}
-@media (max-width: 832px) {
-  .skyj__image {
-    left: -200px;
-    width: 160%;
-  }
-}
-@media (max-width: 732px) {
-  .skyj__image {
-    left: -160px;
-    width: 150%;
-  }
-}
 /* -------------------------------- */
 .btnPinkW {
   padding: 0 12px;
