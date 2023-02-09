@@ -3,9 +3,11 @@
 .skyj__imageW {
     position: relative;
     flex: 1 1 0px;
-    max-width: 740px;
+    max-width: 901px;
     display: flex;
     height: 100%;
+    width: 100%;
+    justify-content: center;
 }
 
 /* @media (max-width:992px){
@@ -14,7 +16,8 @@
     }
 } */
 .skyj__image {
-    width: 100%;
+    width: 190%;
+    margin: 0 auto;
     height: auto;
 }
 
