@@ -171,14 +171,9 @@ body {
 }
 
 /* ------------------------------- */
-.skyj__container {
-  max-width: 1521px;
-}
-
 .skyj__body {
   display: flex;
   flex-direction: row;
-  justify-content: end;
 }
 
 @media (max-width: 990px) {
@@ -230,9 +225,11 @@ body {
 .skyj__imageW {
   position: relative;
   flex: 1 1 0px;
-  max-width: 740px;
+  max-width: 900px;
   display: flex;
   height: 100%;
+  width: 100%;
+  justify-content: center;
 }
 
 /* @media (max-width:992px){
@@ -241,7 +238,8 @@ body {
     }
 } */
 .skyj__image {
-  width: 100%;
+  width: 190%;
+  margin: 0 auto;
   height: auto;
 }
 
