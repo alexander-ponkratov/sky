@@ -146,6 +146,7 @@ body {
   color: #e21bce;
   padding: 20px 20px;
   text-align: center;
+  transition: all 0.3s ease 0s;
 }
 
 .header_button:hover {
