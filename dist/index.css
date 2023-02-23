@@ -288,6 +288,7 @@ body {
 .about__content {
   display: flex;
   justify-content: space-between;
+  margin: 35px 0px 0px 0px;
 }
 
 .about__list {
@@ -302,7 +303,7 @@ body {
 
 .about_listNumberW {
   display: flex;
-  background: #FB9BF1;
+  background: #fb9bf1;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -346,6 +347,10 @@ body {
 
 .materials__text {
   margin: 20px 0px 0px 0px;
+}
+
+.aboutBtnW {
+  margin: 74px auto 0px;
 }
 
 .r1 {
