@@ -280,3 +280,55 @@ body {
 .btnWhite:active {
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
+
+.about__title {
+  text-align: end;
+}
+
+.r1 {
+  position: absolute;
+  left: 196.67px;
+  top: 1103.79px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1.80556px solid #da65ce;
+  filter: blur(3.61111px);
+  transform: rotate(78.4deg);
+}
+
+.r2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 242px;
+  top: 1163px;
+  border: 1px solid #c97bd6;
+  border-radius: 50%;
+  filter: blur(1px);
+  transform: rotate(78.4deg);
+}
+
+.r3 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 311px;
+  top: 1161px;
+  border-radius: 50%;
+  border: 1px solid #da65ce;
+  filter: blur(2px);
+  transform: rotate(78.4deg);
+}
+
+.r4 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 231px;
+  top: 1211px;
+  border-radius: 50%;
+  background: #ae78e3;
+  filter: blur(2px);
+  transform: rotate(78.4deg);
+}
