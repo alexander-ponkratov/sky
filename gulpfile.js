@@ -37,7 +37,7 @@ function fonts() {
 
 //изображения
 function img() {
-	return src('src/parts/img/**.*')
+	return src('src/parts/img/**/**.*')
 	.pipe(dest('dist/img'))
 }
 //очистка папки dist перед записью
@@ -53,7 +53,7 @@ function serve() {
 	watch('src/**.html', series(html)).on('change', sync.reload)
 	watch('src/parts/**.html', series(html)).on('change', sync.reload)
 	watch('src/scss/**.scss', series(scss)).on('change', sync.reload)
-	watch('src/parts/img/**.scss', series(img)).on('change', sync.reload)
+	watch('src/parts/img/**/**.*', series(img)).on('change', sync.reload)
 }
 //команды вида gulp build, gulp serve. Писать в консоли в корне проекта
 exports.build = series(clear, scss, html, fonts, img)

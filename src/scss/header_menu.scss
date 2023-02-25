@@ -8,12 +8,22 @@
     flex-wrap: wrap;
     margin: 10px 10px;
 }
+@media (max-width: 390px) {
+    .header__menu {
+        flex-direction: column;
+    }
+}
 .header__menuItem:not(:last-child) {
     margin-right: 40px;
 }
-@media (max-width:850px){
+@media (max-width: 850px) {
     .header__menuItem:not(:last-child) {
         margin-right: 20px;
+    }
+}
+@media (max-width: 390px) {
+    .header__menuItem:not(:last-child) {
+        margin-right: 5px;
     }
 }
 
@@ -22,7 +32,8 @@
     line-height: 20px;
     color: #000000;
 }
+
 .header__menuLink:hover {
-    color: #E21BCE;
+    color: #e21bce;
 }
 /* ---------------------------- */
