@@ -51,32 +51,100 @@
 .collection__arrow {
 }
 /* ---------------------------------- */
-.market_popular {
+.market__popular {
+    max-width: 1090px;
+    margin: 0 auto;
 }
 .popular {
 }
 .popular__titleW {
 }
 .popular__title {
+    margin: 39px 0px 0px 0px;
 }
 /* ------------------------------ */
-.popular_cards {
+.popular__cards {
+    padding: 15px;
+    display: flex;
 }
-.popular_card {
+.popular__card {
+    width: 210px;
+    margin: 25px 0px 0px 0px;
 }
 .card {
 }
-.card_imagePriceText {
+.card__imagePriceText {
 }
-.card_imageW {
+.card__imageW {
+    position: relative;
 }
-.card_image {
+.card__image {
 }
-.card_priceText {
+.card__pinkTextW {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 72px;
+    height: 34px;
+    background: #fb9bf1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__pinkText {
+    font-size: 12px;
+    line-height: 14px;
+}
+/* ------------------------------- */
+.card__textArrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px 0px 0px;
+}
+.card__textW {
+}
+.card__text {
+}
+.card__arrowW {
+}
+.card__arrow {
+}
+/* --------------------------- */
+.checked {
+    color: #ffd542;
+}
+.color-yellow {
+    color: #ffd542;
+}
+.fa {
+    font-size: 20px !important;
+}
+.card__starsValue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px 0px 0px;
+}
+.cardStars {
+}
+.fa {
+}
+.fa-star {
+}
+
+.fa-star-half-full {
+}
+.card__valueW {
+}
+.card__value {
+    font-size: 32px;
+    line-height: 36px;
+}
+.card__descW{
 
 }
-.card_price {
-
-}
-.card_text {
+.card__desc{
+    margin: 15px 0px 0px 0px;
 }
