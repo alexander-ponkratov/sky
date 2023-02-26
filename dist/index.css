@@ -394,7 +394,7 @@ body {
 }
 
 /* ---------------------------------- */
-.market__popular {
+.popular__titleW {
   max-width: 1090px;
   margin: 0 auto;
 }
@@ -405,17 +405,17 @@ body {
 
 /* ------------------------------ */
 .popular__cards {
-  padding: 15px;
   display: flex;
 }
 
 .popular__card {
-  width: 210px;
-  margin: 25px 0px 0px 0px;
+  margin: 35px 0px 0px 0px;
 }
 
 .card__imageW {
   position: relative;
+  max-width: 210px;
+  margin: 0 auto;
 }
 
 .card__pinkTextW {
@@ -441,7 +441,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 15px 0px 0px 0px;
+  margin: 15px auto 0px;
+  max-width: 210px;
 }
 
 /* --------------------------- */
@@ -458,10 +459,11 @@ body {
 }
 
 .card__starsValue {
+  max-width: 210px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 15px 0px 0px 0px;
+  margin: 15px auto 0px;
 }
 
 .card__value {
@@ -470,5 +472,14 @@ body {
 }
 
 .card__desc {
-  margin: 15px 0px 0px 0px;
+  max-width: 210px;
+  margin: 15px auto 0px;
+}
+
+.slick-slider {
+  display: flex !important;
+}
+
+.prev {
+  background-color: #fff;
 }
