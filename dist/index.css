@@ -480,6 +480,7 @@ body {
   display: flex !important;
 }
 
-.prev {
-  background-color: #fff;
+.prev,
+.next {
+  cursor: pointer;
 }
