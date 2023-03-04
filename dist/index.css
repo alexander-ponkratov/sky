@@ -492,20 +492,22 @@ body {
 
 .staff__list {
   margin: 87px auto 0px;
-  padding: 10px;
   max-width: 1043px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  column-gap: 132px;
+  flex-wrap: wrap;
 }
 
 .staff__card {
+  width: 100%;
   max-width: 239px;
+  margin: 10px;
 }
 
 .staff__faceName {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   column-gap: 10px;
 }
 
