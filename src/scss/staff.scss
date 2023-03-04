@@ -17,13 +17,12 @@
     max-width: 1043px;
     display: flex;
     justify-content: center;
-    column-gap: 132px;
+    column-gap: 172px;
     flex-wrap: wrap;
 }
 .staff__card {
-    width: 100%;
     max-width: 239px;
-    margin: 10px;
+    margin: 10px 0px;
 }
 .staff__faceName {
     display: flex;

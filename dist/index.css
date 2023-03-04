@@ -495,14 +495,13 @@ body {
   max-width: 1043px;
   display: flex;
   justify-content: center;
-  column-gap: 132px;
+  column-gap: 172px;
   flex-wrap: wrap;
 }
 
 .staff__card {
-  width: 100%;
   max-width: 239px;
-  margin: 10px;
+  margin: 10px 0px;
 }
 
 .staff__faceName {
@@ -525,4 +524,44 @@ body {
 
 .staff_desc {
   margin: 17px 0px 0px 0px;
+}
+
+.review__title {
+  margin: 95px 0px 0px 0px;
+}
+
+.review__list {
+  max-width: 1069px;
+  margin: 132px auto 0px;
+  display: flex;
+  justify-content: center;
+  column-gap: 87px;
+  flex-wrap: wrap;
+}
+
+.review__card {
+  max-width: 202px;
+  margin: 10px 0px;
+}
+
+.review__imageName {
+  display: flex;
+  column-gap: 10px;
+}
+
+.review__starsValue {
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  max-width: 191px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review__value {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.review__desc {
+  margin: 10px 0px 0px 0px;
 }
