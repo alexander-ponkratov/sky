@@ -8,6 +8,16 @@
     align-items: center;
     min-height: 145px;
 }
+@media (max-width: 380px){
+    .header__body {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__logoW {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 .header__logoW {
     flex: 1 1 0px;

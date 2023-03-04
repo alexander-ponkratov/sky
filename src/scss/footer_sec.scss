@@ -1,0 +1,139 @@
+.footer {
+    background-color: #fb9bf1;
+    margin: calc((215px/1310px)*100%) 0px 0px 0px;
+}
+.footer__container {
+}
+.footer__body {
+    display: flex;
+    min-height: 246px;
+    margin: 67px 0px 0px 0px;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 50px;
+}
+@media (max-width:380px){
+    .footer__body {
+        row-gap: 32px;
+    }
+}
+/* ----------------------------- */
+.footer__logoW {
+    flex: 1 1 0px;
+    max-width: 220px;
+    margin: 52px 0px 0px 0px;
+}
+.footer__logo {
+}
+/* ------------------------------ */
+.footer__menuW {
+    flex: 1 1 0px;
+    max-width: 330px;
+}
+.footer__menu {
+    max-width: 127px;
+}
+.footer__menuItem:not(:last-child) {
+    margin: 0px 0px 20px 0px;
+}
+@media (max-width:380px){
+    .footer__menuItem:not(:last-child) {
+        margin: 0px 0px 13px 0px;
+    }
+}
+.footer__menuLink:hover {
+    color: #e21bce;
+}
+/* -------------------------------- */
+.footer_contacts {
+    flex: 1 1 0px;
+    max-width: 440px;
+}
+@media (max-width:399px){
+    .footer_contacts {
+        flex: 0 1 0px;
+        margin: 0 auto;
+
+    }
+}
+.contacts__descW {
+}
+.contacts__desc {
+}
+.contacts__listW {
+}
+.contacts__list {
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+@media (max-width:380px){
+    .contacts__list {
+        row-gap: 13px;
+    }
+}
+.contacts__mail {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.contacts__mailIcon {
+}
+.contacts__mailLink {
+}
+.contacts__mailLink:hover {
+    color: #e21bce;
+}
+.contacts_phone {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+}
+.contacts__phoneIcon {
+}
+.contacts__phoneLink {
+}
+.contacts__phoneLink:hover {
+    color: #e21bce;
+}
+.contacts__social {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+}
+.contacts__socialIcon {
+}
+.contacts__socialLink {
+}
+.contacts__socialLink:hover {
+    color: #e21bce;
+}
+/* -------------------------- */
+.footer__contactUs {
+}
+@media (max-width:636px){
+    .footer__contactUs {
+        margin: 0 auto;
+
+    }
+}
+.footer__contactUsDescW {
+}
+.footer__contactUsDesc {
+}
+.header_buttonW {
+}
+.header_button {
+}
+.fBtnW {
+    margin: 0px 0px 10px 0px;
+
+}
+.fBtn {
+    margin: 20px 0px 0px 0px;
+}
+.fSpan {
+}
+.header_button_icon {
+}

@@ -2,6 +2,12 @@
     flex: 1 1 350px;
     max-width: 880px;
 }
+
+@media (max-width:380px){
+    .header__menuW {
+        flex: 1 1 0px;
+    }
+}
 .header__menu {
     display: flex;
     flex-direction: row;

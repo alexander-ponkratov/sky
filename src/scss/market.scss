@@ -9,7 +9,7 @@
 .market__titleW {
 }
 .market__title {
-    margin: 121px 0px 0px 0px;
+    margin: calc((121px/1310px)*100%) 0px 0px 0px;
 }
 /* ------------------ */
 .market__collection {
@@ -19,7 +19,7 @@
 .collection_titleW {
 }
 .collection_title {
-    margin: 35px 0px 25px 0px;
+    margin: calc((35px/1310px)*100%) 0px 25px 0px;
 }
 .collection__items {
     display: flex;
@@ -60,7 +60,7 @@
     margin: 0 auto;
 }
 .popular__title {
-    margin: 39px 0px 0px 0px;
+    margin: calc((39px/1090px)*100%) 0px 0px 0px;
 }
 /* ------------------------------ */
 .popular__cards {

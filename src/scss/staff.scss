@@ -7,13 +7,13 @@
 .staff__titleW {
 }
 .staff__title {
-    margin: 193px 0px 0px 0px;
+    margin: calc((193px/1310px)*100%) 0px 0px 0px;
     text-align: end;
 }
 .staff__listW {
 }
 .staff__list {
-    margin: 87px auto 0px;
+    margin: calc((87px/1310px)*100%) auto 0px;
     max-width: 1043px;
     display: flex;
     justify-content: center;

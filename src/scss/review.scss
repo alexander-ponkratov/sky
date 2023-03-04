@@ -7,14 +7,14 @@
 .review__titleW {
 }
 .review__title {
-    margin: 95px 0px 0px 0px;
+    margin: calc((95px/1310px)*100%) 0px 0px 0px;
 }
 
 .review__listW {
 }
 .review__list {
     max-width: 1069px;
-    margin: 132px auto 0px;
+    margin: calc((132px/1310px)*100%) auto 0px;
     display: flex;
     justify-content: center;
     column-gap: 87px;
