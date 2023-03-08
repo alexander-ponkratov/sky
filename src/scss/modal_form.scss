@@ -10,6 +10,7 @@
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s;
+
     &:target {
         visibility: visible;
         opacity: 1;
@@ -21,7 +22,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        padding: 2em;
+        padding: 20px;
         background: white;
     }
     header {
@@ -35,7 +36,6 @@
 
 .modal-close {
     color: #aaa;
-    line-height: 50px;
     font-size: 80%;
     position: absolute;
     right: 0;
@@ -82,4 +82,63 @@ small {
     i {
         padding-right: 0.3em;
     }
+}
+
+/* ---------------------------- */
+.modal-window {
+}
+.modal__container {
+    max-width: 334px;
+    border: 1px dashed #9747ff;
+    border-radius: 5px;
+}
+.modal-close {
+}
+.form {
+}
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    /* Цвет основной */
+}
+
+.contactForm > label {
+    margin: 10px;
+}
+.contactForm > input {
+    margin: 0px 10px;
+    padding: 18px;
+}
+.contactForm > input:focus {
+    outline: none;
+    border: 2px solid #e21bce;
+}
+.contactForm__name {
+}
+.contactForm__phone {
+}
+.contactForm__email {
+}
+.header_buttonW {
+    margin: 0 auto;
+    width: 100%;
+}
+.header_button {
+}
+.mBtn {
+    /* Цвет фон, текст, иконки */
+    background: #ffffff;
+    /* Темный серый */
+    border: 1px solid #aeaeae;
+    border-radius: 45px;
+    max-width: 210px;
+    margin: 10px 0px;
+}
+.mSpan {
+    color: black;
+}
+
+.mForm_border {
+    border: 1px solid #e21bce;
+    border-radius: 10px;
 }
